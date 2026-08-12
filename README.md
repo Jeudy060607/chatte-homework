@@ -11,7 +11,7 @@ ChatterBot es un motor de diálogo conversacional (chatbot) escrito en Python qu
 - **Licencia:** BSD 3-Clause (código abierto, permite uso, copia, modificación y redistribución citando al autor original: Gunther Cox)
 - **Dependencias principales:** spaCy (procesamiento de lenguaje natural), SQLAlchemy (almacenamiento en base de datos), tqdm
 
-> **Nota sobre derechos de autor:** el código mostrado a continuación pertenece al repositorio oficial de ChatterBot (Copyright © Gunther Cox) y se reproduce bajo licencia BSD con fines educativos. Los comentarios marcados como `// ES:` fueron agregados por el estudiante como documentación propia del funcionamiento del código.
+> **Nota sobre derechos de autor:** el código mostrado a continuación pertenece al repositorio oficial de ChatterBot (Copyright © Gunther Cox) y se reproduce bajo licencia BSD con fines educativos. Los comentarios marcados como `// ES:` fueron agregados por mi estudiante como documentación.
 
 ## 2. Arquitectura general (cómo funciona)
 
