@@ -1,5 +1,3 @@
-# Trabajo de Investigación No. 3
-
 ## Productos de IA: Códigos Fuentes, Instalación, Configuración, Conocimiento, Uso y Explicación Operativa
 
 *Producto seleccionado: ChatterBot (motor de chatbot en Python con Machine Learning)*
