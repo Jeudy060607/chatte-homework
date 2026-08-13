@@ -1,3 +1,31 @@
+<p align="center">
+  <img src="logo-itla.png" alt="ITLA - Instituto Tecnológico de las Américas" width="500">
+</p>
+
+<br>
+
+<h1 align="center">Introducción a la Inteligencia Artificial</h1>
+
+<br>
+
+<p align="center">
+  <strong>Estudiante:</strong> Jeudy José Rosario de Jesús
+</p>
+
+<p align="center">
+  <strong>Docente:</strong> Luis Bessewell Feliz
+</p>
+
+<p align="center">
+  <strong>Asignatura:</strong> Introducción a la Inteligencia Artificial
+</p>
+
+<br>
+
+<p align="center">
+  Instituto Tecnológico de las Américas (ITLA)
+</p>
+
 ## 1. ¿Qué es el producto?
 
 ChatterBot es un motor de diálogo conversacional (chatbot) escrito en Python que utiliza aprendizaje automático (machine learning) para generar respuestas a partir de colecciones de conversaciones previas. No depende de reglas fijas: aprende comparando la entrada del usuario con ejemplos que ya conoce y selecciona la respuesta estadísticamente más adecuada.
