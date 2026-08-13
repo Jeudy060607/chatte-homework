@@ -397,7 +397,7 @@ class ChatBot(object):
         pass
 ```
 
-### 3.2 `logic/best_match.py` — Adaptador BestMatch
+###  `logic/best_match.py` — Adaptador BestMatch
 
 Este es el adaptador de lógica por defecto. Busca, entre lo que el bot ya aprendió, la frase más parecida a la del usuario (`closest_match`) y luego elige la respuesta asociada a esa frase.
 
@@ -556,7 +556,7 @@ class BestMatch(LogicAdapter):
         return response
 ```
 
-### 3.3 `trainers.py` — Entrenamiento del bot (ListTrainer)
+###  `trainers.py` — Entrenamiento del bot (ListTrainer)
 
 Antes de poder responder algo útil, el bot debe ser entrenado. `ListTrainer` recibe una lista de frases que representan una conversación de ejemplo y las guarda como pares pregunta→respuesta.
 
