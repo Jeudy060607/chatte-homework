@@ -112,6 +112,7 @@ print(respuesta)
 
 Diagrama elaborado con Lucidchart (software de diagramas de flujo) a partir del análisis del código fuente documentado. Representa el recorrido completo de un mensaje dentro de ChatterBot: desde que el usuario escribe, hasta que el bot responde y aprende.
 
-![Diagrama de flujo - Parte 1](https://lucid.app/lucidchart/a4b15380-1a93-48cc-907d-a1495b6267f0/edit?invitationId=inv_dbfe5370-2f79-4fc6-818a-d3105395570d)
+[Diagrama de flujo - Parte 1](https://lucid.app/lucidchart/a4b15380-1a93-48cc-907d-a1495b6267f0/edit?invitationId=inv_dbfe5370-2f79-4fc6-818a-d3105395570d)
+
 
 
