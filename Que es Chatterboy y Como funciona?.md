@@ -98,3 +98,20 @@ print(respuesta)
 - **Error de compatibilidad con spaCy:** confirmar que Python esté entre las versiones 3.10 y 3.14.
 - **No encuentra el modelo de idioma:** verificar que el Paso 5 terminó sin errores antes de ejecutar el script.
 
+ Resumen de la lógica operativa (para el diagrama de flujo)
+
+1. El usuario envía un mensaje de texto al bot (`get_response`).
+2. El texto se preprocesa (limpieza) y se etiqueta gramaticalmente con spaCy.
+3. El motor de búsqueda compara el texto contra todas las frases ya aprendidas.
+4. BestMatch identifica la frase más parecida (`closest_match`) y calcula un nivel de confianza.
+5. Se buscan las respuestas históricas asociadas a esa frase; si no existen, se usa una respuesta por defecto.
+6. Si hay varios adaptadores de lógica activos, se compara lo que proponen y gana la respuesta con más consenso o mayor confianza.
+7. La respuesta se envía al usuario y, si el bot no está en modo `read_only`, la conversación completa se guarda para seguir aprendiendo.
+
+## 5. Diagrama de flujo (lógica operativa del código)
+
+Diagrama elaborado con Lucidchart (software de diagramas de flujo) a partir del análisis del código fuente documentado. Representa el recorrido completo de un mensaje dentro de ChatterBot: desde que el usuario escribe, hasta que el bot responde y aprende.
+
+![Diagrama de flujo - Parte 1](https://lucid.app/lucidchart/a4b15380-1a93-48cc-907d-a1495b6267f0/edit?invitationId=inv_dbfe5370-2f79-4fc6-818a-d3105395570d)
+
+
