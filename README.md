@@ -1,27 +1,5 @@
 > **Nota sobre derechos de autor:** el código mostrado a continuación pertenece al repositorio oficial de ChatterBot (Copyright © Gunther Cox) y se reproduce bajo licencia BSD con fines educativos. Los comentarios marcados como `// ES:` fueron agregados por mi estudiante como documentación.
 
-## 4. Resumen de la lógica operativa (para el diagrama de flujo)
-
-1. El usuario envía un mensaje de texto al bot (`get_response`).
-2. El texto se preprocesa (limpieza) y se etiqueta gramaticalmente con spaCy.
-3. El motor de búsqueda compara el texto contra todas las frases ya aprendidas.
-4. BestMatch identifica la frase más parecida (`closest_match`) y calcula un nivel de confianza.
-5. Se buscan las respuestas históricas asociadas a esa frase; si no existen, se usa una respuesta por defecto.
-6. Si hay varios adaptadores de lógica activos, se compara lo que proponen y gana la respuesta con más consenso o mayor confianza.
-7. La respuesta se envía al usuario y, si el bot no está en modo `read_only`, la conversación completa se guarda para seguir aprendiendo.
-
-## 5. Diagrama de flujo (lógica operativa del código)
-
-Diagrama elaborado con Graphviz (software de diagramas de flujo) a partir del análisis del código fuente documentado en la sección 3. Representa el recorrido completo de un mensaje dentro de ChatterBot: desde que el usuario escribe, hasta que el bot responde y aprende.
-
-**Parte 1 de 2**
-
-![Diagrama de flujo - Parte 1](images/diagrama-flujo-parte1.png)
-
-**Parte 2 de 2 (continuación)**
-
-![Diagrama de flujo - Parte 2](images/diagrama-flujo-parte2.png)
-
 ## 7. Documento descriptivo del producto (Punto 3)
 
 A continuación se narra todo lo relacionado al producto ChatterBot: lenguaje de programación y versión, plataformas en que opera, sistemas operativos compatibles, manejo de bases de datos y archivos, y otra documentación descriptiva del proyecto.
