@@ -1,7 +1,6 @@
 > **Nota sobre derechos de autor:** el código mostrado a continuación pertenece al repositorio oficial de ChatterBot (Copyright © Gunther Cox) y se reproduce bajo licencia BSD con fines educativos. Los comentarios marcados como `// ES:` fueron agregados por mi estudiante como documentación.
 
-## 7. Documento descriptivo del producto (Punto 3)
-
+## 7. Documento descriptivo del producto 
 A continuación se narra todo lo relacionado al producto ChatterBot: lenguaje de programación y versión, plataformas en que opera, sistemas operativos compatibles, manejo de bases de datos y archivos, y otra documentación descriptiva del proyecto.
 
 ### 7.1 Lenguaje de programación y versión
